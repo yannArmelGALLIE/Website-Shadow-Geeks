@@ -4,14 +4,17 @@ const noMessageSent = document.querySelector('.no-message-sent') ;
 const toEmail = document.querySelector('.to-email');
 const toNumber = document.querySelector('.to-number');
 
+if(document.body.id === "services") {
+    // Disable the elements of the show section
 
-// Disable the elements of the show section
+    noMessageSent.classList.add("disabled");
 
-noMessageSent.classList.add("disabled");
+    toEmail.classList.add("disabled");
 
-toEmail.classList.add("disabled");
+    toNumber.classList.add("disabled");
 
-toNumber.classList.add("disabled");
+}
+
 
 
 
