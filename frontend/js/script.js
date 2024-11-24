@@ -1,6 +1,19 @@
 const activePage = window.location.pathname;
 const navLinks1 = document.querySelectorAll('header a');
-const btn_shop = document.querySelector('.btn_shop')
+const noMessageSent = document.querySelector('.no-message-sent') ;
+const toEmail = document.querySelector('.to-email');
+const toNumber = document.querySelector('.to-number');
+
+
+// Disable the elements of the show section
+
+noMessageSent.classList.add("disabled");
+
+toEmail.classList.add("disabled");
+
+toNumber.classList.add("disabled");
+
+
 
 navLinks1.forEach(link => {
     if(link.href.includes(`${activePage}`)) {
@@ -11,6 +24,7 @@ navLinks1.forEach(link => {
 
 
 // Custom Scroll bar 
+
 window.onscroll = () => {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -18,4 +32,3 @@ window.onscroll = () => {
     document.querySelector('#scroll-bar').style.width= scrolled + '%';
 };
 
-console.log(document.querySelector('#scroll-bar'))
