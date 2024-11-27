@@ -40,9 +40,9 @@
     </div>
     <div class="container-main">
         <!-- to sign in -->
-        <section class="sign-in">
+        <!-- <section class="sign-in">
             <h2>Veuillez vous connecter</h2>
-            <form action="" class="form form-sign-in">
+            <form action="" class="form form-sign-in" id="form-sign-in" method="post" >
                 <div>
                     <label for="username">Votre nom d'utilisateur</label>
                     <input type="text" name="username" id="username">
@@ -57,9 +57,9 @@
                 <button class="btn btn-1">Vous n'avez pas de compte ?</button>
             </div>
             </form>
-        </section>
+        </section> -->
         <!-- to sign up -->
-         <section class="sign-up">
+         <!-- <section class="sign-up">
             <h2>Veuillez vous inscrire</h2>
             <form action="" class="form form-sign-up">
                 <div>
@@ -105,7 +105,7 @@
                 </div>
                 <div>
                     <label for="photo">Choisissez une photo de profil</label>
-                    <input type="file" name="photo" id="photo">
+                    <input type="file" name="photo" id="photo-0">
                 </div>
                 <div>
                     <label for="password">Créer un mot de passe</label>
@@ -120,6 +120,27 @@
                     <button class="btn btn-2">Vous avez déjà un compte ?</button>
                 </div>
             </form>
+         </section> -->
+         <section class="informations">
+            <h2>Informations sur l'utilisateur</h2>
+            <div class="div-informations">
+            <div id="photo"><img src="./img/Africa Room Affiche 1.jpg" alt=""></div>
+            <div id="input-informations">
+                <h3>Informations personnelles</h3>
+                <p>Nom : <span>GALLIE</span></p>
+                <p>Prénoms : <span>Koffi Yann-Armel</span></p>
+                <p>Date de naissance : <span>28 Janvier 2006</span></p>
+                <p>Genre : <span>Homme</span></p>
+                <p>Région : <span>Côte d'Ivoire</span></p>
+                <h3>Informations du compte</h3>
+                <p>Email : <span>katanasunaipa024@gmail.com</span></p>
+                <p>Nom d'utilisateur : <span>katanasunaipa</span></p>
+                <button class="btn">Changer de mot de passe</button>
+                <h3>Deconnexion et suppression</h3>
+                <button class="btn">Deconnexion du compte</button>
+                <button class="btn">Suppression du compte</button>
+            </div>
+        </div>
          </section>
     </div>
     <div class="container-footer">
@@ -128,5 +149,6 @@
         </footer>
     </div>
     <script src="./js/script.js"></script>
+    <script src="../backend/falidate_form.js"></script>
 </body>
 </html>
