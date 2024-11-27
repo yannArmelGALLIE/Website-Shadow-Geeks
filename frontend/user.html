@@ -14,7 +14,7 @@
      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Accueil | Shadow Geeks</title>
 </head>
-<body>
+<body id="user">
     <!-- Custom Scrool Bar -->
     <div class="progress">
         <div class="progress-bar" id="scroll-bar"></div>
@@ -37,6 +37,90 @@
                <a href="user.html"><span class="menu">Mon compte</span></a>   
            </div>    
         </header>
+    </div>
+    <div class="container-main">
+        <!-- to sign in -->
+        <section class="sign-in">
+            <h2>Veuillez vous connecter</h2>
+            <form action="" class="form form-sign-in">
+                <div>
+                    <label for="username">Votre nom d'utilisateur</label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div>
+                    <label for="password">Votre mot de passe</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div>
+                <button type="submit" class="btn" id="btn-sign-in">Connecter-vous</button>
+                <Button class="btn">Vous avez oublié votre mot de passe ?</Button>
+                <button class="btn btn-1">Vous n'avez pas de compte ?</button>
+            </div>
+            </form>
+        </section>
+        <!-- to sign up -->
+         <section class="sign-up">
+            <h2>Veuillez vous inscrire</h2>
+            <form action="" class="form form-sign-up">
+                <div>
+                    <label for="mail">Votre Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="username">Créer un nom d'utilisateur</label>
+                    <input type="text" name="username" id="username-0">
+                </div>
+                <div>
+                    <label for="username">Vérifier votre nom d'utilisateur</label>
+                    <input type="text" name="username" id="username-verify">
+                </div>
+                <div>
+                    <label for="name">Votre Nom</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="surname">Vos prénoms</label>
+                    <input type="text" name="surname" id="surname">
+                </div>
+                <div>
+                    <label for="birthday">Votre date de naissance</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div>
+                    <label for="gender">Votre genre</label>
+                    <select name="gender" id="gender">
+                        <option value="0">Homme</option>
+                        <option value="1">Femme</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="region">Votre région</label>
+                    <select name="region" id="region">
+                        <option value="0">Côte d'Ivoire</option>
+                        <option value="1">France</option>
+                        <option value="2">Burkina Faso</option>
+                        <option value="3">Mali</option>
+                        <option value="4">Belgique</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="photo">Choisissez une photo de profil</label>
+                    <input type="file" name="photo" id="photo">
+                </div>
+                <div>
+                    <label for="password">Créer un mot de passe</label>
+                    <input type="password" name="password" id="password-0">
+                </div>
+                <div>
+                    <label for="password">Vérifier votre mot de passe</label>
+                    <input type="password" name="password" id="password-verify">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-sign-up">S'inscrire</button>
+                    <button class="btn btn-2">Vous avez déjà un compte ?</button>
+                </div>
+            </form>
+         </section>
     </div>
     <div class="container-footer">
         <footer>
