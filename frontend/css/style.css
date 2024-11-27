@@ -479,6 +479,39 @@ img{
     position: absolute;       
   }
 
+  /* Sign in section */
+.form-sign-in > button {
+    margin-top: 20px;
+}
+
+.form-sign-in > div >input {
+    width: 50%;
+}
+
+.form-sign-in > div > button {
+    width: 32%;
+    margin: 10px;
+}
+
+/* Sign up section */
+
+.form-sign-up > button {
+    margin-top: 20px;
+}
+
+.form-sign-up > div >input,
+.form-sign-up > div > select {
+    width: 50%;
+    padding: 10px;
+}
+
+.form-sign-up > div > button {
+    width: 32%;
+    margin: 10px;
+}
+
+
+
 
 
  /* Display Block For Deafault Scrool Bar */
