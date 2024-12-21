@@ -40,9 +40,10 @@
     </div>
     <div class="container-main">
         <!-- to sign in -->
-        <!-- <section class="sign-in">
+        <section class="sign-in">
             <h2>Veuillez vous connecter</h2>
-            <form action="" class="form form-sign-in" id="form-sign-in" method="post" >
+            <form action="" class="form form-sign-in" id="form-sign-in" method="POST" >
+                <h3 id="fail"></h3>
                 <div>
                     <label for="username">Votre nom d'utilisateur</label>
                     <input type="text" name="username" id="username">
@@ -57,9 +58,9 @@
                 <button class="btn btn-1">Vous n'avez pas de compte ?</button>
             </div>
             </form>
-        </section> -->
+        </section>
         <!-- to sign up -->
-         <!-- <section class="sign-up">
+         <section class="sign-up">
             <h2>Veuillez vous inscrire</h2>
             <form action="" class="form form-sign-up">
                 <div>
@@ -120,28 +121,29 @@
                     <button class="btn btn-2">Vous avez déjà un compte ?</button>
                 </div>
             </form>
-         </section> -->
+          </section>
+          <!-- To show the user's informations -->
          <section class="informations">
             <h2>Informations sur l'utilisateur</h2>
             <div class="div-informations">
             <div id="photo"><img src="./img/Africa Room Affiche 1.jpg" alt=""></div>
             <div id="input-informations">
                 <h3>Informations personnelles</h3>
-                <p>Nom : <span>GALLIE</span></p>
-                <p>Prénoms : <span>Koffi Yann-Armel</span></p>
-                <p>Date de naissance : <span>28 Janvier 2006</span></p>
-                <p>Genre : <span>Homme</span></p>
-                <p>Région : <span>Côte d'Ivoire</span></p>
+                <p>Nom : <span id="span-name"></span></p>
+                <p>Prénoms : <span id="span-surname"></span></p>
+                <p>Date de naissance : <span id="span-date"></span></p>
+                <p>Genre : <span id="span-gender"></span></p>
+                <p>Région : <span id="span-region"></span></p>
                 <h3>Informations du compte</h3>
-                <p>Email : <span>katanasunaipa024@gmail.com</span></p>
-                <p>Nom d'utilisateur : <span>katanasunaipa</span></p>
+                <p>Email : <span id="span-email"></span></p>
+                <p>Nom d'utilisateur : <span id="span-username"></span></p>
                 <button class="btn">Changer de mot de passe</button>
                 <h3>Deconnexion et suppression</h3>
                 <button class="btn">Deconnexion du compte</button>
                 <button class="btn">Suppression du compte</button>
             </div>
         </div>
-         </section>
+         </section> 
     </div>
     <div class="container-footer">
         <footer>
@@ -149,6 +151,6 @@
         </footer>
     </div>
     <script src="./js/script.js"></script>
-    <script src="../backend/falidate_form.js"></script>
+    <script type="module" src="../backend/falidate_form.js"></script>
 </body>
 </html>
