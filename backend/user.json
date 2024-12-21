@@ -1,0 +1,35 @@
+[
+    {
+    "name" : "GALLIE",
+    "surname" : "Koffi Yann-Armel",
+    "username" : "katanasunaipa",
+    "email" : "katanasunaipa024@gmail.com",
+    "gender" : "Homme",
+    "birthday" : "28/01/2006",
+    "region" : "Côte d'Ivoire",
+    "img" : "",
+    "password" : "sungjinwoo"
+    },
+    {
+    "name" : "Uzumaki",
+    "surname" : "Naruto",
+    "username" : "nsuns4",
+    "email" : "narutouzumaki@gmail.com",
+    "gender" : "Homme",
+    "birthday" : "24/04/1999",
+    "region" : "Japon",
+    "img" : "",
+    "password" : "ramen"
+    },
+    {
+    "name" : "Hyuga",
+    "surname" : "hinata",
+    "username" : "clanhyuga",
+    "email" : "hinatahyuga@gmail.com",
+    "gender" : "Femme",
+    "birthday" : "12/11/2000",
+    "region" : "Japon",
+    "img" : "",
+    "password" : "hinata"
+    }
+]
